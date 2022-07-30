@@ -23,8 +23,8 @@
 
 
 local Input = game:GetService'UserInputService'
-local Enabled = 'J' -- capitalise the letter
-local Disabled = 'H'-- capitalise the letter
+local Enabled = 'F' -- capitalise the letter
+local Disabled = 'E'-- capitalise the letter
 
 Input.InputBegan:Connect(function(input)
     if input.KeyCode == Enum.KeyCode[Enabled] then
